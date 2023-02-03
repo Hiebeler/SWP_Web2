@@ -1,0 +1,21 @@
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitle {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    background-color: aquamarine;
+}
+
+#text p {
+    background-color: deeppink;
+}
