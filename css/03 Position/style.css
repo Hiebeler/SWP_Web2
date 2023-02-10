@@ -1,0 +1,35 @@
+body {
+
+    height: 150vh;
+}
+
+div {
+    border: solid;
+    height: 100px;
+}
+
+.div2 {
+    position: relative;
+    top: 300px;
+    left: 50px;
+    background-color: aquamarine;
+}
+
+.div1 {
+    position: fixed;
+    background-color: lime;
+}
+
+.div3 {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    background-color: crimson;
+}
+
+.div4 {
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    background-color: indianred;
+}
