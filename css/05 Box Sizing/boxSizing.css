@@ -1,0 +1,24 @@
+
+
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    box-sizing: border-box;
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.third {
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    padding: 10px;
+    box-sizing: content-box;
+}
