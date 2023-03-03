@@ -1,0 +1,30 @@
+* {
+    font-size: 20px;
+}
+
+div {
+    height: 33.3%;
+}
+
+.main {
+    height: 50vh;
+    width: 70vw;
+    background-color: paleturquoise;
+}
+
+.box0 {
+    width: 100px;
+    background-color: lightseagreen;
+    font-size: 0.5rem;
+}
+.box1 {
+    width: 50%;
+    background-color: teal;
+    font-size: 1.2rem;
+}
+
+.box2 {
+    width: 50vw;
+    background-color: darkcyan;
+    font-size: 2rem;
+}
