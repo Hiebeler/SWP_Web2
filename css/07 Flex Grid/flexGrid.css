@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+}
+
+.box {
+    background-color: seagreen;
+}
+
+.container {
+    background-color: darkseagreen;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item1 {
+    grid-row-start: span 3;
+}
+
+.item2 {
+    grid-column-start: span 2;
+}
