@@ -86,9 +86,22 @@ header h1 {
   height: 28px;
 }
 
+.todo button {
+  background-color: transparent;
+  border: none;
+  color: var(--color);
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
 .todo .todoText {
   margin-left: 35px;
   font-size: 1.2rem;
+}
+
+.todo .todoDelete {
+  position: absolute;
+  right: 20px;
 }
 
 .round {
