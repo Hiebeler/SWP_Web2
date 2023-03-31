@@ -1,0 +1,32 @@
+main {
+    padding: 20px;
+}
+
+main .buttons-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 15px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    background-color: mediumseagreen;
+}
