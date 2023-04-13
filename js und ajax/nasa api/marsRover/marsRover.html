@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mars Rover Photos</title>
+    <script src="./marsRover.js" defer></script>
+    <link rel="stylesheet" href="./marsRover.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="../nasaApi.html"><img src="../assets/nasaLogo.png" alt=""></a>
+      <h1 id="headline">Mars Rover Photos</h1>
+      <div class="content">
+        <input type="number" name="sol" id="sol" placeholder="sol">
+        <p class="latestPhotos" onclick="loadLatestImages();">Latest Photos</p>
+        <div class="dropdown">
+            <span>Marsrover</span>
+            <div class="dropdown-content">
+                <button onclick="setRover('perseverance');">Perseverance</button> 
+              <button onclick="setRover('curiosity');">Curiosity</button>
+              <button onclick="setRover('opportunity');"">Opportunity</button>
+              <button onclick="setRover('spirit');"">Spirit </button>
+            </div>
+          </div>
+       
+        <div class="dropdown" id="cameraDropdown">
+          <span>Camera</span>
+          <div class="dropdown-content">
+            <button onclick="loadImages('EDL_RUCAM');">Rover Up-Look Camera</button>
+            <button onclick="loadImages('EDL_RDCAM');">Rover Down-Look Camera</button>
+            <button onclick="loadImages('EDL_DDCAM');"">Descent Stage Down-Look Camera</button>
+            <button onclick="loadImages('EDL_PUCAM1');"">Parachute Up-Look Camera A</button>
+            <button onclick="loadImages('EDL_PUCAM2')">Parachute Up-Look Camera B</button>
+            <button onclick="loadImages('NAVCAM_LEFT')">Navigation Camera - Left</button>
+            <button onclick="loadImages('NAVCAM_RIGHT')">Navigation Camera - Right</button>
+            <button onclick="loadImages('MCZ_RIGHT')">Mast Camera Zoom - Right</button>
+            <button onclick="loadImages('MCZ_LEFT')">Mast Camera Zoom - Left</button>
+            <button onclick="loadImages('FRONT_HAZCAM_LEFT_A')">Front Hazard Avoidance Camera - Left</button>
+            <button onclick="loadImages('FRONT_HAZCAM_RIGHT_A')">Front Hazard Avoidance Camera - Right</button>
+            <button onclick="loadImages('REAR_HAZCAM_LEFT')">Rear Hazard Avoidance Camera - Left</button>
+            <button onclick="loadImages('REAR_HAZCAM_RIGHT')">Rear Hazard Avoidance Camera - Right</button>
+            <button onclick="loadImages('SKYCAM')">MEDA Skycam</button>
+            <button onclick="loadImages('SHERLOC_WATSON')">SHERLOC WATSON Camera</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <div id="gallery"></div>
+  </body>
+</html>
