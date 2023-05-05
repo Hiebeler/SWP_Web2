@@ -9,7 +9,10 @@ function loadImage(date) {
 }
 
 function showImage(data) {
+    console.table(data);
+    document.getElementById('title').innerHTML = data.title
     document.getElementById("image").innerHTML = `<img src='${data.url}' />`
+    document.getElementById('explanation').innerHTML = data.explanation;
 }
 
 const datePicker = document.getElementById('datePicker');

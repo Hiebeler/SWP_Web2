@@ -1,0 +1,27 @@
+.wrapper {
+    margin-top: 50px;
+}
+
+.isClicked {
+    transition: 1000ms;
+    background-color: cadetblue;
+    width: 200px;
+    margin-top: 5px
+}
+
+.isNotClicked {
+    transition: 1000ms;
+    background-color: brown;
+    width: 200px;
+    margin-top: 5px
+}
+
+.isNotClicked:hover {
+    transition: 1000ms;
+    scale: 1.2
+}
+
+.isClicked:hover {
+    transition: 1000ms;
+    scale: 1.2
+}

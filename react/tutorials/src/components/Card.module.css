@@ -1,0 +1,23 @@
+.wrapper {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    position: relative;
+    background-color: white;
+    transition: 1000ms;
+}
+
+.wrapper:hover {
+    scale:1.1;
+    transition: 1000ms;
+}
+
+.image {
+    width: 100%;
+}
+
+.content {
+    color: black;
+    text-align: start;
+    padding-left: 20px;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  border: 5px solid black;
+  transition: 1000ms;
+}
+
+.wrapper:hover {
+  transition: 1000ms;
+  scale: 1.1;
+}
+
+.isOn {
+  padding: 19px;
+  background-color: greenyellow;
+}
+
+.isOff {
+  padding: 19px;
+  background-color: crimson;
+}
